@@ -1,0 +1,217 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eafaf1; /* Light green */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #4caf50; /* Green */
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-flex;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+.image-placeholder {
+  width: 800px;
+  height: 400px; /* Set a height for the placeholder */
+  margin-left: 10%;
+  background-color: #cfd8dc; /* Light grey for placeholder */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px; /* Spacing between sections */
+}
+
+/* Chatbot Styles */
+.chatbot {
+  display: none;
+  position: fixed;
+  right: -400px; /* Start off-screen on the right */
+  bottom: 20px;
+  width: 350px; /* Adjusted width for a larger chatbot */
+  background-color: #e6f5f3; /* Light greenish */
+  border: 2px solid #4caf50; /* Darker green */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: right 0.3s ease; /* Smooth slide effect */
+}
+
+.chatbot-header {
+  background-color: #4caf50; /* Darker green */
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-messages {
+  padding: 10px;
+  max-height: 250px; /* Increased height for chatbot messages */
+  overflow-y: auto;
+}
+
+#chatbotInput, #sendChatbotMessage {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+#sendChatbotMessage {
+  background-color: #4caf50; /* Darker green */
+  color: white;
+  cursor: pointer;
+}
+
+/* Chatbot Button Style */
+.chatbot-button {
+  position: fixed;
+  right: 20px; /* Position the button on the right */
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.robot-icon {
+  width: 50px; /* Adjust size as needed */
+}
+.auth-buttons {
+  float: right;
+  margin-top: -30px;
+}
+
+.auth-form {
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form.hidden {
+  display: none;
+}
+
+.auth-form h2 {
+  margin-top: 0;
+}
+
+.auth-form label {
+  justify-content: center;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.auth-form input[type="text"], .auth-form input[type="email"], .auth-form input[type="password"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-form button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+video {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+}
+.logo {
+  float: left;
+  margin-right: 1em;
+  
+  }
+  
+  .logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  }
+ 
+.logo-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo-hover:hover {
+  transform: scale(1.3); /* Increase scale by 10% */
+  opacity: 0.8; /* Reduce opacity by 20% */
+  box-shadow: 0 0 10px rgba(227, 13, 13, 0.5); /* Add shadow */
+}
+.tips {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+    .tips h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    .tip {
+      margin-bottom: 20px;
+    }
+    
+    .tip h3 {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }

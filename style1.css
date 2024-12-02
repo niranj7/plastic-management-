@@ -1,0 +1,44 @@
+/* Thank You Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eafaf1; /* Light green */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #4caf50; /* Green */
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+#thank-you-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#thank-you-section h2 {
+  color: #333;
+}
+
+#thank-you-section p {
+  font-size: 1.1em;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4caf50; /* Green */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #204121; /* Darker green */
+}

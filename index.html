@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plastic Usage Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+      <div class="logo">
+      <img class="logo-hover" src="Screenshot (41).png" alt="Logo">
+      </div>
+    <h1>Plastic Usage Tracker</h1>
+    <p><i>Track, reduce, and earn rewards for reducing plastic waste!</i></p>
+    <div class="auth-buttons">
+      <button id="signInButton">Sign In</button>
+      <button id="registerButton">Register</button>
+  </div>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#tips">Tips</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Sections -->
+  <main>
+    <section id="home">
+      <h2><u>Welcome to the Plastic Usage Tracker</h2></u>
+      <p>This platform helps you log and track your plastic usage and contributes to reducing plastic waste by offering rewards.
+        <br>
+  Track, Reduce, and Earn Rewards for a Plastic-Free Future
+  <br>
+  <br>
+  <strong>Key Features</strong><br>
+  <br>
+  - Track Your Plastic Usage: Log your daily plastic usage and set reduction goals.<br><br>
+  - Personalized Recommendations: Get tailored tips to reduce plastic waste based on your habits.<br><br>
+  - Reward System: Earn points and badges for achieving milestones.<br><br>
+
+  <strong>Why Use Plastic Usage Tracker?</strong><br><br>
+
+  - Reduce Your Environmental Impact: Contribute to a plastic-free future.<br><br>
+  - Save Money: Reduce waste, save resources.<br><br>
+  - Join a Community: Connect with like-minded individuals.<br>
+  <br>
+  <emp>Start Your Plastic-Free Journey Today</emp><br><br>
+
+  Sign up now and join thousands of users committed to reducing plastic waste.<br><br>
+
+
+        </p>
+        <video width="800" controls>
+          <source src="trackingplasticpollu.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <br>
+        <br>
+
+        <!-- Plastic Collection Form -->
+        <form id="plasticForm" onsubmit="return confirmSubmission()">
+          <label for="plasticCollected">Enter reusable plastic collected (grams):</label>
+          <input type="number" id="plasticCollected" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      
+      <section id="project">
+        <h2>Project Overview</h2>
+        <p><!-- Overview -->
+          <p>Our Plastic Management website aims to educate, engage, and empower individuals, organizations, and communities to reduce plastic waste and promote sustainability.</p>
+        <div class="image-placeholder">
+        <h4 align="center"><img src="WhatsApp Image 2024-11-09 at 7.25.49 PM.jpeg" width="800px" height="400px"></h4>
+        </div>
+        <!-- Future Directions -->
+    <h3>Future Directions</h3>
+    <div class="future-directions">
+      <ul>
+        <li>Integrate social media platforms for increased outreach</li>
+        <li>Develop mobile app for on-the-go access</li>
+        <li>Expand resource library with multimedia content</li>
+        <li>Establish partnerships with schools and educational institutions</li>
+      </ul>
+    </div>
+      </section>
+
+      <section id="tips">
+        <h2>Tips to Reduce Plastic Waste</h2>
+    
+
+    <!-- Clothing and Fashion -->
+    <div class="tip">
+      <h3>Clothing and Fashion</h3>
+      <ul>
+        <li>Choose clothing made from natural fibers (cotton, linen, wool)</li>
+        <li>Avoid clothing with plastic-based materials (spandex, elastane)</li>
+        <li>Buy second-hand clothing or swap with friends</li>
+        <li>Repair or repurpose old clothes instead of discarding</li>
+        <li>Opt for sustainable fashion brands using eco-friendly materials</li>
+      </ul>
+    </div>
+    
+    <!-- Daily Essentials -->
+    <div class="tip">
+      <h3>Daily Essentials</h3>
+      <ul>
+        <li>Switch to reusable bags (cloth, jute, or canvas) for shopping</li>
+        <li>Use stainless steel or glass water bottles</li>
+        <li>Choose soap bars or soap dispensers instead of plastic-bottled soap</li>
+        <li>Replace plastic toothbrushes with bamboo or electric toothbrushes</li>
+        <li>Use metal or bamboo straws</li>
+      </ul>
+    </div>
+    
+    <!-- Food and Beverages -->
+    <div class="tip">
+      <h3>Food and Beverages</h3>
+      <ul>
+        <li>Avoid single-use plastic water bottles and coffee cups</li>
+        <li>Opt for glass or stainless steel containers for takeout</li>
+        <li>Choose products with minimal or biodegradable packaging</li>
+        <li>Buy in bulk and use reusable containers</li>
+        <li>Avoid microbeads in face wash and exfoliating products</li>
+      </ul>
+    </div>
+    
+    <!-- Household Items -->
+    <div class="tip">
+      <h3>Household Items</h3>
+      <ul>
+        <li>Replace plastic wrap with beeswax wraps or reusable containers</li>
+        <li>Use cloth or mesh produce bags</li>
+        <li>Choose eco-friendly cleaning products with refillable containers</li>
+        <li>Switch to reusable makeup remover pads</li>
+        <li>Avoid plastic-based air fresheners</li>
+      </ul>
+    </div>
+    
+    <!-- Personal Care -->
+    <div class="tip">
+      <h3>Personal Care</h3>
+      <ul>
+        <li>Choose shampoo and conditioner bars</li>
+        <li>Opt for metal or bamboo razors</li>
+        <li>Use reusable makeup brushes</li>
+        <li>Avoid plastic-based hair accessories</li>
+        <li>Select eco-friendly sunscreen packaging</li>
+      </ul>
+    </div>
+    
+    <!-- Additional Tips -->
+    <div class="tip">
+      <h3>Additional Tips</h3>
+      <ul>
+        <li>Refuse single-use plastics (straws, cutlery, bags)</li>
+        <li>Upcycle or repurpose plastic items</li>
+        <li>Participate in local clean-ups and recycling initiatives</li>
+        <li>Support plastic-free policies and organizations</li>
+        <li>Educate friends and family about plastic reduction</li>
+      </ul>
+    </div>
+  </div>
+        <div class="image-placeholder">
+          <img src="myphoto.jpg">
+        </div>
+      </section>
+    </main>
+
+    <!-- Chatbot Button -->
+    <div id="chatbotButton" class="chatbot-button">
+      <img src="https://th.bing.com/th/id/OIP.nfN3z6QkpoaUAxd3LcVyaQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.9&pid=1.7" alt="Chat with Us" class="robot-icon">
+    </div>
+
+    <!-- Chatbot Window -->
+    <div id="chatbot" class="chatbot">
+      <div class="chatbot-header">
+        <h3>Plastic Assistant Bot</h3>
+        <button id="chatbotClose">&times;</button>
+      </div>
+      <div id="chatbotMessages" class="chatbot-messages"></div>
+      <input type="text" id="chatbotInput" placeholder="Ask a question..." />
+      <button id="sendChatbotMessage">Send</button>
+    </div>
+  <!-- Authentication Forms -->
+  <div id="signInForm" class="auth-form hidden">
+    <h2>Sign In</h2>
+    <form onsubmit="return confirmSubmission()">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <button type="submit">Sign In</button>
+    </form>
+    <p>Don't have an account? <a id="registerLink">Register here</a></p>
+  </div>
+
+  <div id="registerForm" class="auth-form hidden">
+    <h2>Register</h2>
+    <form onsubmit="return confirmSubmission()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" required>
+        <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a id="signInLink">Sign in here</a></p>
+  </div>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Plastic Usage Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

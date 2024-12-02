@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <!-- Thank You Page Header -->
+  <header>
+    <h1>Thank You for Your Contribution!</h1>
+    <p>Your plastic collection information has been successfully submitted.</p>
+  </header>
+
+  <!-- Main Content for Thank You Message -->
+  <main>
+    <section id="thank-you-section">
+      <h2>We’ll Collect Your Plastic Soon!</h2>
+      <p>Thank you for helping reduce plastic waste. Together, we’re making a difference!</p>
+      <p>Your earnings for this collection: <strong>₹<span id="earningsAmount">0.00</span></strong></p>
+      <a href="index.html" class="button">Return to Home</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Plastic Usage Tracker. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Display earnings stored in session storage
+    const earnings = sessionStorage.getItem("plasticEarnings") || "0.00";
+    document.getElementById("earningsAmount").textContent = earnings;
+  </script>
+</body>
+</html>
